@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+:root{
+    --template_color: rgb(0, 0, 0);
+    --template_form_bg: #0884a3;
+    }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    place-items: center;
+    color: white;
+    background-color: var(--template_bg);
+    color: var(--template_color);
+    background-image: url('./img/css3\ background.png'); /* Replace with your image path */
+    background-size: cover; /* This makes the image cover the entire background */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-position: center center; /* This positions the image at the center */
+    
+    
+    
+}
+
+
+/* MIUUL Form*/
+.miuul_login_form{
+    position:relative;
+    width: 30rem;
+    height: 40rem;
+    padding: 3rem;
+    background-color: var(--template_form_bg);
+    border-radius: 1.5rem;
+    box-shadow: 14px 14px 20px black, -14px -14px 20px black;
+}
+
+/* Logo */
+
+.miuul_logo{
+    width: 20rem;
+    height: 12rem;
+    background: url('./img/logo-dark.png');
+    margin:  auto;
+    border-radius: 25px;
+    background-size: cover;
+}
+
+/* TITLE */
+.miuul_title{
+    font-size: 1.5rem;
+    margin-bottom: 2rem 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+
+/* Container */
+
+.miuul_container{
+    margin-top: 1rem;
+    padding-left: 5rem;
+    font-size: 1rem;
+}
+
+/* LABEL INPUT AND BUTTON */
+
+label, input, button{
+    display: block;
+    width: 75%;
+    outline: none;
+    border: none;
+    padding-right: 0!important;  
+}
+/* LABEL */
+
+label{
+    margin-bottom: 7px;
+   
+}
+
+label:nth-of-type(2){
+    margin-top: 15px;
+}
+/* INPUT */
+
+
+input{
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    height: 3rem;
+    box-shadow: inset 5px 5px 5px #cbced1, inset -3px -3px 5px #cbced1;
+    
+    
+}
+
+button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-right: 10rem;
+    background-color: whitesmoke;
+    height: 3rem;
+}
+
+button:hover{}

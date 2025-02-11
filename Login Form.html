@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Form</title>
 <!-- Favicon -->
 <link rel="shortcut icon" href="./img/6.png" type="image/x-icon">
     
@@ -20,29 +20,35 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
     font-family: "Titillium Web", serif;
    }
 </style>
+
+<!-- Extrenal CSS -->
+
+<link rel="stylesheet" href="Login.css">
 </head>
 
 <body>
 <noscript>Your Browser Doesn't Support Javascript</noscript>
 <!-- start code -->
 
-<div class="miuul_login_form"></div>
-    <h3 class="header">Form Login</h3>
-    <div class="subtitle">Hoşgeldiniz</div>
-    <div class="miuul_container"></div>    
+<div class="miuul_login_form">
+    <a href="https://miuul.com"><div class="miuul_logo"></div></a>
+    <div class="miuul_title">Miuul Login Form</div>
+       
     <form action="#!" method="get" id="login_id" name="login_name">
 
-<div class="form-group">
+<div class="miuul_container">
     <label for="uemail">Your E-mail</label>
     <input type="email" name="uemail" id="uemail" placeholder="E-mail" required autofocus/>
 </div>
-<br>
-<div class="form-group">
+
+<div class="miuul_container">
     <label for="upassword">Your Password</label>
     <input type="password" name="upassword" id="upassword" placeholder="Password" required/>
+    <button>Login</button>
 </div>
 
-<a href="https://miuul.com">Miuul</a>
+
+<a href="https://miuul.com"><img src="./img/logo-dark.png" alt="Miuul Logo" width="75px" height="75px"></a> 
     </form>
     </tbody>
 </table>
